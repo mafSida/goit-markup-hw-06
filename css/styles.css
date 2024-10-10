@@ -371,8 +371,8 @@ img {
 }
 .product-list {
   display: flex;
-  gap: 48px 24px;
   flex-wrap: wrap;
+  gap: 48px;
 }
 .product-list-item {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -388,6 +388,7 @@ img {
   overflow: hidden;
 }
 .product-list-img {
+  width: 100%;
 }
 .product-card-text {
   position: absolute;
@@ -811,6 +812,14 @@ img {
   .team-list-item {
     width: calc((100% - 72px) / 2);
   }
+
+  .product-list {
+    gap: 72px 24px;
+  }
+
+  .product-list-item {
+    width: calc((100% - 72px) / 2);
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -867,5 +876,19 @@ img {
 
   .team-list-item {
     width: calc((100% - 3 * 24px) / 4);
+  }
+
+  .product-list {
+    gap: 48px 24px;
+  }
+
+  .product-list-item {
+    width: calc((100% - 2 * 24px) / 3);
+  }
+}
+
+@media (min-resolution: 192dpi) {
+  .hero {
+    background-image: url('/images/background-image@2x.jpg');
   }
 }

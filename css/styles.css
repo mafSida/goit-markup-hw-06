@@ -42,9 +42,9 @@ img {
 }
 
 .container {
-  width: 320px;
-  padding-left: 16px;
-  padding-right: 16px;
+  max-width: 318px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin: 0 auto;
 }
 
@@ -794,7 +794,7 @@ img {
 
 @media screen and (min-width: 768px) {
   .container {
-    width: 768px;
+    width: 766px;
   }
 
   .features-list {
@@ -822,11 +822,9 @@ img {
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1158px) {
   .container {
-    width: 1440px;
-    padding-right: 156px;
-    padding-left: 156px;
+    max-width: 1158;
   }
 
   .section {

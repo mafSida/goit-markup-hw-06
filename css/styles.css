@@ -811,7 +811,7 @@ img {
   }
 
   .features-list {
-    gap: 24px 72px;
+    gap: 72px 24px;
   }
 
   .features-list-item {

@@ -524,10 +524,6 @@ button {
   .features-list-title {
     text-align: left;
   }
-
-  .team-list-item {
-    width: calc((100% - 72px) / 2);
-  }
 }
 
 @media screen and (min-width: 1158px) {
@@ -631,12 +627,15 @@ button {
 .socials-list.team {
   gap: 24px;
   padding: 0 16px;
-  justify-content: center;
 }
 
 @media screen and (min-width: 768px) {
+  .team-list {
+    gap: 72px 24px;
+  }
+
   .team-list-item {
-    width: calc((100% - 72px) / 2);
+    width: calc((100% - 24px) / 2);
   }
 
   .team-section .container {
@@ -646,6 +645,12 @@ button {
 }
 
 @media screen and (min-width: 1158px) {
+  .team-section .container {
+    padding-left: 16px;
+    padding-right: 16px;
+    margin: 0 auto;
+  }
+
   .team-list {
     flex-wrap: nowrap;
     gap: 24px;

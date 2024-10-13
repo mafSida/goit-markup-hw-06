@@ -455,6 +455,15 @@ button {
     font-size: 56px;
     margin-bottom: 48px;
   }
+
+  .hero-order-btn {
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .hero-order-btn:hover,
+  .hero-order-btn:focus {
+    background-color: #404bbf;
+  }
 }
 
 /* =========FEATURES SECTION ======*/
@@ -927,5 +936,21 @@ button {
   .footer-subscribe-input {
     width: 264px;
     opacity: 1;
+  }
+
+  .footer .socials-list-link:hover,
+  .footer .socials-list-link:focus,
+  .footer .socials-list-link:active {
+    background-color: #31d0aa;
+  }
+
+  .footer-subscribe-btn {
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .footer-subscribe-btn:hover,
+  .footer-subscribe-btn:focus,
+  .footer-subscribe-btn:active {
+    background-color: #404bbf;
   }
 }
